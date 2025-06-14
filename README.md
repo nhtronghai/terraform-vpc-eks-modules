@@ -3,7 +3,7 @@
 This repository contains Terraform configurations to provision cloud infrastructure on AWS, including:
 - VPC setup
 - EKS (Elastic Kubernetes Service) cluster with EC2 node groups
-- S3 bucket for backend state storage
+- S3 bucket for backend state storage [Use https://github.com/rameshpatildwd/terraform-backend - to create S3 & Dynamodb for backend configuration]
 - DynamoDB table for state locking  
 
 ---
